@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+    <header>
+        <h1>A Taste of Italy</h1>
+        <nav>
+            <a href="#menu">menu</a>
+            <a href="#orderForm">order</a>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <div class="sectionHeader">
+                <br><br>
+                <h1>Menu</h1>
+                <br><br>
+            </div>
+            <div class="menuList">
+                <article>
+                    <div class="foodHeader">
+                        <h2>Antipasti</h2>
+                    </div>
+                    <h3 class="foodItem">Meatballs and Polenta</h3>
+                    <p class="foodDescription">A 3 meat meatball with a side of polenta and marinara sauce</p>
+                    <br>
+                    <h3 class="foodItem">Bruschetta</h3>
+                    <p class="foodDescription">Toasted bread topped with olive oil and tomatoes</p>
+                    <br>
+                    <h3 class="foodItem">Mozzarella Fritta</h3>
+                    <p class="foodDescription">Fried mozzarella served with marina sauce</p>
+                    <br>
+                </article>
+                <article>
+                    <div class="foodHeader">
+                        <h2>Primi</h2>
+                    </div>
+                    <h3 class="foodItem">Spaghettini Cacio e Pepe</h3>
+                    <p class="foodDescription">A simple pasta dish made using spaghettini and pecorino romano cheese</p>
+                    <br>
+                    <h3 class="foodItem">Bucatini all'amatriciana </h3>
+                    <p class="foodDescription">A pasta dish made with bucatini pasta, pecorino romano cheese, fresh tomato sauce, and guanciale (cured pork jowl)</p>
+                    <br>
+                    <h3 class="foodItem">Spaghetti alla Carbonara</h3>
+                    <p class="foodDescription">A pasta dish made with spaghetti pasta, pecorino cheese, eggs, and guanciale (cured pork jowl)</p>
+                    <br>
+                </article>
+                <article>
+                    <div class="foodHeader">
+                        <h2>Secondi</h2>
+                    </div>
+                    <h3 class="foodItem">Chicken Piccata</h3>
+                    <p class="foodDescription">Breaded chicken served with a lemon caper sauce</p>
+                    <br>
+                    <h3 class="foodItem">Chicken Parmigiana</h3>
+                    <p class="foodDescription">Chicken sauteed in a marinara sauce topped with parmigiano-reggiano and mozzarella cheese</p>
+                    <br>
+                </article>
+            </div>
+        </section>
+        <section id="orderForm">
+            <div class="sectionHeader">
+                <br><br>
+                <h1>Order</h1>
+                <br><br>
+            </div>
+            <div class="orderForm">
+                <form>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" required />
+                    <label for="phoneNumber">Phone number: </label>
+                    <input type="tel" id="phonenumber" required />
+                    <label for="address">Address: </label>
+                    <input type="text" id="address" required />
+                    <label for="special">Special requests: </label>
+                    <textarea name="special" id="special" rows="10" required></textarea>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

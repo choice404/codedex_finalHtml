@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/snell-roundhand');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/602833744a96866dbf7ed823/1613785053618-26RRLU2BJOQ29U15TZ0E/SecretSupper_WinePairingRecipes_CacioePepe_003_LR_photocredit_CarlyDiaz.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* following code taken from https://stackoverflow.com/a/34702639/21643912 and modified for this project */    
+    &:before {
+        content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            opacity: .5; 
+            z-index: -1;
+    }
+}
+
+header {
+    margin: 10px auto;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: 'Snell Roundhand', sans-serif;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 2rem;
+    margin: 0px 10vw;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.menuList {
+    background-color: white;
+    width: 80vw;
+    height: auto;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.menuList h2 {
+    font-size: 3rem;
+}
+
+.menuList h3 {
+    font-size: 2rem;
+}
+
+.menuList article {
+    border-bottom: 1px solid #ddd;
+}
+
+.foodHeader {
+    text-align: center;
+}
+
+.sectionHeader {
+    filter: drop-shadow(0px 0px 2px #000);
+    text-align: center;
+}
+
+.sectionHeader h1 {
+    font-family: 'Snell Roundhand', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+#orderForm {
+    height: 100vh;
+}
+
+form {
+    max-width: 420px;
+    margin: auto;
+    background: white;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+label {
+    color: #aaa;
+    display: inline-block;
+    margin: 25px 0 15px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+input, select, textarea{
+    display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+textarea{
+    height: 15rem;
+    resize: none;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 2px;
+}
+button {
+    background: #0b6dff;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.submit {
+    text-align: center;
+}
